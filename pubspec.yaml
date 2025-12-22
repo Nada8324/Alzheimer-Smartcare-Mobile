@@ -1,0 +1,126 @@
+name: alzheimer_smartcare
+description: "Application for alzheimer people"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+
+environment:
+  sdk: ^3.5.0
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_memory_game:
+    git:
+      url: https://github.com/Richmond-Nunoo/FLUTTER-MEMORY-GAME.git
+      ref: master
+
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+
+  # UI Packages
+  country_code_picker: ^3.0.0
+  loading_animation_widget: ^1.2.0+4
+  flutter_staggered_grid_view: ^0.7.0
+  lottie: ^2.7.0
+  flutter_simple_calculator: ^2.2.2
+  flutter_slidable: ^3.0.0
+  responsive_builder: ^0.7.0
+  dropdown_search: "5.0.6"
+  searchfield: "1.0.1"
+  visibility_detector: ^0.4.0+2
+  auto_size_text: ^3.0.0
+  search_choices: ^2.2.5
+  cupertino_icons: ^1.0.8
+  cached_network_image: ^3.2.3
+  smooth_page_indicator: ^1.0.1
+  shimmer: ^3.0.0
+  blur: ^4.0.0
+  flutter_screenutil:
+  flutter_color: ^2.1.0
+  iconsax_plus: ^1.0.0
+  carousel_slider: ^5.0.0
+  # Helpers
+  package_info_plus: ^8.0.0
+  internet_connection_checker: ^1.0.0+1
+  flutter_easyloading: ^3.0.5
+  flutter_svg: ^2.0.4
+  device_info_plus: ^10.1.2
+  get: ^4.6.5
+  image: ^4.0.17
+  pull_to_refresh: ^2.0.0
+  get_storage: ^2.1.1
+  intl: ^0.19.0
+  flutter_email_sender: ^6.0.3
+  dio: ^5.7.0
+  form_validator: ^2.1.1
+  flutter_keyboard_visibility: ^6.0.0
+  keyboard_avoider: ^0.2.0
+  shared_preferences: ^2.5.2
+  card_game: ^1.1.0
+  flutter_hooks: ^0.21.2
+  image_picker: ^1.1.2
+  camera: ^0.11.1
+  image_cropper: ^9.1.0
+  #tflite: ^1.1.2
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^6.0.7
+  http: ^1.3.0
+  cloud_firestore: ^5.6.6
+  geolocator: ^14.0.0
+  permission_handler: ^12.0.0+1
+  google_maps_flutter: ^2.12.1
+  firebase_core: ^3.13.0
+  firebase_messaging: ^15.2.7
+  latlong2: ^0.9.1
+  flutter_map: ^8.1.1
+  animated_bottom_navigation_bar: ^1.4.0
+  timezone: ^0.10.1
+#  awesome_notifications: ^0.10.1
+#  flutter_tts: ^4.2.2
+#  language_detector: ^1.0.1
+#dependency_overrides:
+#  intl: ^0.20.2
+
+
+  #Firebase
+#    fcm_config: ^3.6.2
+#    flutter_lints: ^4.0.0
+#    firebase_core: ^3.6.0
+#    firebase_remote_config: ^5.1.3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  #Assets
+  assets:
+    - assets/images/
+#  Fonts
+  fonts:
+    - family: Kaleko
+      fonts:
+        - asset: assets/fonts/gt-canary-morebirounded-bold-webfont.woff2.ttf
+          weight: 900
+        - asset: assets/fonts/Kaleko105Bold.ttf
+          weight: 800
+        - asset: assets/fonts/Kaleko105Book.ttf
+          weight: 700
+        - asset: assets/fonts/Kaleko105Heavy.ttf
+          weight: 600
+        - asset: assets/fonts/Kaleko105Light.ttf
+          weight: 400
+        - asset: assets/fonts/Kaleko105Thin.ttf
+          weight: 300
+#    - family: Poppins
+#      fonts:
+#        - asset: assets/fonts/Poppins-Regular.ttf
+#        - asset: assets/fonts/Poppins-Bold.ttf
+#          weight: 700
+#        - asset: assets/fonts/Poppins-SemiBold.ttf
+#          weight: 600
+#        - asset: assets/fonts/Poppins-Medium.ttf
+#          weight: 500
+#        - asset: assets/fonts/Poppins-Light.ttf
+#          weight: 300
