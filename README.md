@@ -1,4 +1,5 @@
 Alzheimer Smart Care 🧠📱
+
 A comprehensive, AI-powered mobile solution designed to assist Alzheimer's patients, empower caregivers, and provide doctors with actionable health data. This project bridges the gap between medical supervision and daily care through a secure, cross-platform Flutter application.
 
 ---
