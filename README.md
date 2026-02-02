@@ -1,23 +1,23 @@
-# Alzheimer SmartCare (Mobile App)
-
-A cross-platform mobile app (Android & iOS) built with Flutter to support Alzheimer’s patients and caregivers through reminders and supportive tools.
-
-> Graduation Project — Alzheimer SmartCare
+Alzheimer Smart Care 🧠📱
+A comprehensive, AI-powered mobile solution designed to assist Alzheimer's patients, empower caregivers, and provide doctors with actionable health data. This project bridges the gap between medical supervision and daily care through a secure, cross-platform Flutter application.
 
 ---
 
 ## ✨ Key Features
-- User authentication (Doctor / Patient / Caregiver)
-- Medication reminders (create, update, upcoming reminders)
-- Face image registration / storage support
-- QR code generation for pairing
-- Cognitive games & supportive UI flows
+-Multi-Role Authentication: Specialized interfaces and permissions for Doctors, Patients, and Caregivers.
+-Smart Reminders: Complete CRUD functionality for medication and appointment reminders with automated notifications.
+-Caregiver-Patient Pairing: Securely link accounts using unique QR code generation and scanning.
+-Safety & Tracking: Real-time GPS tracking with background geolocation to ensure patient safety.
+-Health Monitoring: MRI scan classification integrated via AI backends and cognitive memory games to track performance trends.
+-Face Recognition: Secure patient registration and identity verification using face image storage.s
 
 ---
 
 ## 🛠 Tech Stack
-- Flutter (Dart)
-- REST API integration
+-Frontend: Flutter (Dart) using GetX for State Management.
+-Backend Integration: REST APIs (ASP.NET Core) and Firebase (Firestore, Auth, FCM).
+-Local Database: SQLite for offline data persistence.
+-AI/ML Integration: TensorFlow and OpenCV for MRI analysis and face recognition.
 
 ---
 
